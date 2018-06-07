@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\adjust_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\aicc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\brain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\ecs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\evaluate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_exsmooth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getBP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getbrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getplan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getplan2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getleast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\predict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\Timeseriers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\adjust_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\aicc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\brain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\evaluate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\exsmooth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getar1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getBP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getplan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\leastsquare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\predict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A0684E0F-8C94-39D2-A309-8CC6AC13E6BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84129824-253D-37E1-BDBA-616545EEFD01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

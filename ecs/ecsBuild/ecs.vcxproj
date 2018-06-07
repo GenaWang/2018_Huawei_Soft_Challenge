@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{83AF7C1D-1EBF-3994-9F95-8CFEA6EE5A25}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ecs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\LTHPC\Desktop\软件挑战赛\ecs\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ecs.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ecs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\LTHPC\Desktop\软件挑战赛\ecs\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ecs.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ecs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\LTHPC\Desktop\软件挑战赛\ecs\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ecs.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ecs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\LTHPC\Desktop\软件挑战赛\ecs\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ecs.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ecs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O0 -g -ggdb</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/LTHPC/Desktop/软件挑战赛/ecs/bin/Debug/ecs.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/LTHPC/Desktop/软件挑战赛/ecs/bin/Debug/ecs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O3</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/LTHPC/Desktop/软件挑战赛/ecs/bin/Release/ecs.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/LTHPC/Desktop/软件挑战赛/ecs/bin/Release/ecs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/LTHPC/Desktop/软件挑战赛/ecs/bin/MinSizeRel/ecs.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/LTHPC/Desktop/软件挑战赛/ecs/bin/MinSizeRel/ecs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/LTHPC/Desktop/软件挑战赛/ecs/bin/RelWithDebInfo/ecs.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/LTHPC/Desktop/软件挑战赛/ecs/bin/RelWithDebInfo/ecs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs -BC:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild --check-stamp-file C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs -BC:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild --check-stamp-file C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs -BC:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild --check-stamp-file C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs -BC:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild --check-stamp-file C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\2.cpp"  />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\adjust_data.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\adjust_data.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\aicc.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\aicc.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\brain.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\brain.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\ecs.cpp"  />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\evaluate.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\evaluate.h" />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\exsmooth.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_config.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_config.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_data.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_data.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\get_exsmooth.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getar.h" />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getar1.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getBP.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getBP.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getbrain.cpp"  />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getplan.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getplan.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getplan2.cpp"  />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\getleast.cpp"  />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\io.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\leastsquare.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\main.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\main.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\memory.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\memory.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\predict.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\predict.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\print.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\print.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\test.cpp"  />
+    <ClInclude Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\test.h" />
+    <ClCompile Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecs\Timeseriers.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\LTHPC\Desktop\软件挑战赛\ecs\ecsBuild\ZERO_CHECK.vcxproj">
+      <Project>{223EABC8-0048-3671-A38E-D0C4B5B17B0C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

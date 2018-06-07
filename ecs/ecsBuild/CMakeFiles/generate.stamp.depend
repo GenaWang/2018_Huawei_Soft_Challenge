@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecs/CMakeLists.txt
+C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild/CMakeFiles/3.10.1/CMakeSystem.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild/CMakeFiles/3.10.1/CMakeCCompiler.cmake
+C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild/CMakeFiles/3.10.1/CMakeCXXCompiler.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeGenericSystem.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCInformation.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/Users/LTHPC/Desktop/软件挑战赛/ecs/ecsBuild/CMakeFiles/3.10.1/CMakeRCCompiler.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeRCInformation.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/Compiler/MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+E:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
